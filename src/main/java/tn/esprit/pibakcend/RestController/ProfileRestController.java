@@ -23,7 +23,8 @@ import java.util.UUID;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
+
 @RequestMapping("/api")
 public class ProfileRestController {
     IProfile iProfile;

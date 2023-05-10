@@ -21,7 +21,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/evenement/")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://front-app:80")
+
 @AllArgsConstructor
 public class EvenementRestController {
 

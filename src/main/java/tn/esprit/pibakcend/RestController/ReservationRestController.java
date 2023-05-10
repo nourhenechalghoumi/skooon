@@ -16,7 +16,7 @@ import java.util.Date;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "//localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping("/api")
 @AllArgsConstructor
 

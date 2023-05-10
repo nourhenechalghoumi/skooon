@@ -25,7 +25,7 @@ import java.util.Collections;
 @RestController
 @Slf4j
 @RequestMapping("/api/auth")
-@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin(origins = "*")
 public class SocialLoginController {
 
     @Autowired

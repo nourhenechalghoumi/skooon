@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin(origins = "//localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping("")
 public class ChatControoler {
     public IChatMessageService messageService;

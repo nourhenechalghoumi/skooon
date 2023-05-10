@@ -22,7 +22,8 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/payment")
-@CrossOrigin("*")
+@CrossOrigin(origins = "*")
+
 public class PaymentController {
 
     @Autowired
@@ -32,6 +33,8 @@ public class PaymentController {
     @Autowired
     private JavaMailSender mailSender;
     private User user;
+
+
 
 @GetMapping("/success")
 public ResponseEntity<Double> payOrder(@RequestParam("sessionId") String checkoutSessionId) {

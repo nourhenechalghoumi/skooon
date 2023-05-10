@@ -11,6 +11,8 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/orderitems")
+@CrossOrigin(origins = "*")
+
 public class OrderIdemController {
 
         private OrderItemImplement orderItemService;

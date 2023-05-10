@@ -9,7 +9,7 @@ import tn.esprit.pibakcend.entities.Notification;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "//localhost:4200")
+@CrossOrigin(origins = "*")
 @RequestMapping("/api")
 @AllArgsConstructor
 

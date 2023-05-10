@@ -27,7 +27,8 @@ import java.util.stream.IntStream;
 
 @RestController
 @AllArgsConstructor
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "*")
+
 @RequestMapping("/api")
 public class FeedbackRestController {
     IFeedback iFeedback;
